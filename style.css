@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+nav{
+    background:skyblue;
+    height: 70px;
+    width: 100%;
+    position: -webkit-sticky;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 70px;
+    padding:o 100px;
+    font-weight: bolder;
+    margin-left: 5px;
+
+
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: rgb(32, 73, 161);
+    
+}
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+#name{
+    color: darkorange;
+}
+.half-bio{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+
+}
+.half-bio img{
+    height: 450px;
+    margin-top: 10px;
+    position: relative;
+    margin-top: 80px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.first-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+p{
+    font-weight: 480;
+    text-justify: inter-word;
+}
+h3{
+    color: teal;
+}
+.link-button{
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+.second-section{
+    background-image: url(images/biography-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+#second-header{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.third-section{
+    background-image: url(images/latest-work-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.third-section h1{
+    font-weight: bolder;
+    text-align: center;
+    background-color:gainsboro;
+    color:black;
+
+}
+.new-job{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+
+}
+.new-job img{
+    width: 100%;
+    height: auto;
+}
+.fourth-section h1{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(235, 235, 235);
+}
+.fourth-section h3{
+    text-align: center;
+    margin-top: 80px;
+}
+.fourth-section h5{
+    text-align: center;
+    margin-top: 12px;
+}
+.fourth-section p{
+    text-align: center;
+    margin-top:30px;
+}
+.fourth-section{
+    background-image: url(images/footer-bg.png);
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.fourth-section h2{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.space-mamu{
+    background-color: tomato;
+    margin-top: 50px;
+    height: 120px;
+
+}
+.space-mamu h4{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+}
+footer{
+    background-color:rgb(7, 69, 88);
+    height: 40px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-top: 15px;
+    
+}
